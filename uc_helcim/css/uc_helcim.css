@@ -1,0 +1,41 @@
+/**
+ * @file
+ * Styles for uc_helcim module.
+ */
+
+.uc-helcim-cctype {
+  vertical-align: middle;
+  margin-bottom: 3px;
+}
+
+.uc-helcim-form label {
+  clear: left; /* LTR */
+  float: left; /* LTR */
+  margin: 2px 0;
+  padding-top: 5px;
+  width: 10em;
+}
+[dir="rtl"] .uc-helcim-form label {
+  clear: right;
+  float: right;
+}
+
+.uc-helcim-form input,
+.uc-helcim-form select {
+  float: left; /* LTR */
+  margin: 2px;
+}
+[dir="rtl"] .uc-helcim-form input,
+[dir="rtl"] .uc-helcim-form select {
+  float: right;
+}
+
+.uc-helcim-form .field-suffix {
+  float: left; /* LTR */
+  margin: 2px;
+  padding-top: 5px;
+}
+[dir="rtl"] .uc-helcim-form .field-suffix {
+  float: right;
+}
+

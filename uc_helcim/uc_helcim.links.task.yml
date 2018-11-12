@@ -1,0 +1,5 @@
+uc_helcim.settings:
+  route_name: uc_helcim.settings
+  base_route: entity.uc_payment_method.collection
+  title: Credit card security
+  weight: 5

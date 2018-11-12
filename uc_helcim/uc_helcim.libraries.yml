@@ -1,0 +1,12 @@
+uc_helcim.styles:
+  css:
+    theme:
+      css/uc_helcim.css: {}
+
+uc_helcim_javascript:
+  js:
+    js/helcim.js: {}
+    https://secure.myhelcim.com/js/version2.js: { type: external}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings

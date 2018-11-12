@@ -1,0 +1,6 @@
+services:
+  uc_helcim_session_data_subscriber:
+    class: Drupal\uc_helcim\EventSubscriber\SessionDataSubscriber
+    arguments: ['@current_route_match']
+    tags:
+      - { name: event_subscriber }
